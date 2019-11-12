@@ -51,16 +51,27 @@ const styles = StyleSheet.create({
       backgroundColor: "#aaa",
       marginHorizontal: 50, 
       marginVertical: 50,
+      height: 100,
+      lineHeight: 100,
       textAlign: "center", 
     },
     randomBtn: {
       textAlign: "center", 
+      justifyContent: "center",
       fontSize: 20,
       backgroundColor: "black",
       margin: 20,
-      color: "#ddd"
+      width: 100, 
+      height: 100,
+      lineHeight: 100,
+      color: "#ddd",
     },
     btnContainer: {
+      flex: 1,
+      flexDirection: "row",
+      flexWrap: "wrap", 
+      justifyContent: "space-between", 
+     
       marginHorizontal: 50, 
       marginVertical: 50,
     }
