@@ -1,2 +1,2 @@
-# Match-it-
-Ios mobile game with react native 
+# Match-it
+IOS mobile game with react native 
